@@ -1,0 +1,9 @@
+ .logoLink {
+    margin-bottom: 15px
+  }
+  
+  .logoLink:not(.logoLinkActive):focus,
+  .logoLink:not(.logoLinkActive):hover {
+    opacity: .5
+  }
+

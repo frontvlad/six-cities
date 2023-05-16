@@ -1,0 +1,31 @@
+  .button {
+    display: block;
+    padding: 9px 21px 6px 11px;
+    font-size: 19px;
+    line-height: 1.211;
+    font-weight: 300;
+    font-style: oblique;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    border-radius: 3px;
+    -webkit-transition: background .3s, color .3s, text-shadow .3s;
+    transition: background .3s, color .3s, text-shadow .3s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    display: block;
+    -webkit-transform: skew(15deg);
+    transform: skew(15deg)
+  }
+  
+  .button:focus,
+  .button:hover {
+    text-shadow: 1px 0 0, .5px 0 0, -1px 0 0
+  }
+  
+  .button.active {
+    text-shadow: 1px 0 0, .5px 0 0, -1px 0 0;
+    color: #fff;
+    background-color: #4481c3
+  }
