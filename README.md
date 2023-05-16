@@ -4,5 +4,8 @@
 [https://htmlacademy.ru/intensive/ecmascript](https://htmlacademy.ru/intensive/react)
 
 
+Сейчас проект переписывается под TypeScript
+
+
 
 
